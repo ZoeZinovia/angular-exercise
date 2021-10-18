@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
 
   onSubmit(newLogin: Login){
     const val = this.form.value;
-    if(val.email && val.password){ ß
+    if(val.email && val.password){ 
       this.onSubmitLogin.emit(newLogin);
 
       this.form.reset();
